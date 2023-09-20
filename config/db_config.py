@@ -1,0 +1,4 @@
+import os
+
+DATABASE_URL = os.getenv('DATABASE_URL')
+ISOLATION_LEVEL = os.getenv("ISOLATION_LEVEL", "READ COMMITTED")
